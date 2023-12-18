@@ -1,8 +1,9 @@
+# A Python3 program to find if 2 given line segments intersect or not
+
 # This code is from https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
 # This code is contributed by Ansh Riyal
 
-# A Python3 program to find if 2 given line segments intersect or not
- 
+
 class Point:
     def __init__(self, x, y):
         self.x = x
