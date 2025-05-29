@@ -25,9 +25,9 @@ The step A code reads Whole Slide Images (WSIs) and outputs background color in 
 Step B: 
 # This step B code reads step A's output as input to get list of WSIs,
 # and also reads all the foreground tiles in each WSI to get mean of RGB on OD space for each WSI. (absorption of RGB channel)
-# You need to set set process_image_start=1, process_image_end=420, EXTRACT_TILES_OPTION=2, 
+# You need to set process_image_start=1, process_image_end=420, EXTRACT_TILES_OPTION=2, 
 # OUTSIDE_POLYGON_TYPE='All_foreground_tiles' in Section 1's code and run it to get all the foreground tiles.
-# You can set SAVING_TILE_JUMP_STEP (like 800, 1600) to a larger number to save less tiles and speed up process.
+# You can set DOWNSAMPLE_RATE to a larger number to save less tiles and speed up process.
 
 # Input: 
 # INPUT_BACKGROUND_COLOR_TXT_PATH_NAME: output of step A
