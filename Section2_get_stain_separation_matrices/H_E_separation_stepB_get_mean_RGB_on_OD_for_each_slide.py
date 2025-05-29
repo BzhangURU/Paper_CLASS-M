@@ -1,6 +1,6 @@
 # This step B code reads step A's output as input to get list of WSIs,
 # and also reads all the foreground tiles in each WSI to get mean of RGB on OD space for each WSI. (absorption of RGB channel)
-# You need to set set process_image_start=1, process_image_end=420, EXTRACT_TILES_OPTION=2, 
+# You need to set process_image_start=1, process_image_end=420 if the dataset is originally from 420 TCGA WSIs, 
 # OUTSIDE_POLYGON_TYPE='All_foreground_tiles' in Section 1's code and run it to get all the foreground tiles.
 # You can set DOWNSAMPLE_RATE to a larger number to save less tiles and speed up process.
 
